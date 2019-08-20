@@ -10,12 +10,12 @@ get '/name' do
   "My name is Bob"
 end
   
-  get '/name' do
-  "My name is Bob"
+  get '/hometown' do
+  "My hometown is here"
 end
 
-get '/name' do
-  "My name is Bob"
+get '/favorite-song' do
+  "My favorite song is assert_routing "
 end
   
   
