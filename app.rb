@@ -6,8 +6,12 @@ class App < Sinatra::Base
   @names = Names.all
 end
 
- get '/' do
-  @names = Names.all
+ get '/hometown' do
+  @hometown = hometown.all
+end
+  
+   get '/favorite-song' do
+  @favorite-song= favorite-song.all
 end
   
   
