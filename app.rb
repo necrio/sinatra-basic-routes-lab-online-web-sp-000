@@ -7,7 +7,7 @@ get '/' do
 end
 
 get '/name' do
-  "Hello, World"
+  "My name is Bob"
 end
   
   
