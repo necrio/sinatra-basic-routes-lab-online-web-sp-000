@@ -10,7 +10,13 @@ get '/name' do
   "My name is Bob"
 end
   
-  
+  get '/name' do
+  "My name is Bob"
+end
+
+get '/name' do
+  "My name is Bob"
+end
   
   
 end
